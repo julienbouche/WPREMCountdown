@@ -1,0 +1,29 @@
+/* Styling REM CountDown */
+
+.Decompte{
+  background: rgba(0,0,0, 0.4);
+  border : 1px solid black;
+  position:absolute;
+  left:40%;
+  border-radius:5px;
+}
+
+.DecompteBox{
+  float:left;
+  margin-left:10px;
+  margin-right:10px;  
+}
+
+.DecompteValue{
+  color:black;
+  font-size:2em;
+}
+
+#DecomptePrefixe{
+	color:red;
+}
+
+.DecompteUnitTime{
+  color:#eee;
+}
+
