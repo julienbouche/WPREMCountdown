@@ -7,7 +7,7 @@ HOWTO INSTALL PLUGIN
 ====================
 
 Copy REMCountdown directory to your wp-content/plugins/ directory.
-Add the following line wherever you want it to be displayed : 
+Add the following line wherever you want it to be displayed (in your theme, go to wp-content/themes/<yourtheme>/) : 
 ```php
 <?php if(function_exists(rem_countdown_display))rem_countdown_display()?>
 ```
